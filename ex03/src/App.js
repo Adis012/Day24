@@ -13,6 +13,9 @@ class App extends React.Component {
         // Session Storage
         sessionStorage.setItem('fronted', 'React');
 
+        // remove all
+        localStorage.clear();
+
     }
     render() {
         return (
